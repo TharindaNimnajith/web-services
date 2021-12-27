@@ -21,7 +21,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="bugtracker" options="-parameters" />
+      <module name="bugtracker" options="" />
     </option>
   </component>
 </project>

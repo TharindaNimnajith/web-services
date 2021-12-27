@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project xmlns:con="http://eviware.com/soapui/config" id="f063601e-17ea-4769-b542-f3ce25416c81" activeEnvironment="Default"
+<con:soapui-project xmlns:con="http://eviware.com/soapui/config" id="f063601e-17ea-4769-b542-f3ce25416c81"
+                    activeEnvironment="Default"
                     name="CustomSOAPAPI" resourceRoot="" soapui-version="5.4.0" abortOnError="false"
                     runType="SEQUENTIAL">
   <con:settings/>
-  <con:interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="con:WsdlInterface" id="8b610f6f-13b5-4d06-83a3-3032b5ffbc3f"
+  <con:interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="con:WsdlInterface"
+                 id="8b610f6f-13b5-4d06-83a3-3032b5ffbc3f"
                  wsaVersion="NONE" name="ApplicationServiceSOAPSoapBinding"
                  type="wsdl"
-                 bindingName="{http://soap.keysoft.com.java.main.src/}ApplicationServiceSOAPSoapBinding" soapVersion="1_1"
+                 bindingName="{http://soap.keysoft.com.java.main.src/}ApplicationServiceSOAPSoapBinding"
+                 soapVersion="1_1"
                  anonymous="optional"
                  definition="http://localhost:8080/javaee-7.0/ApplicationServiceSOAP?wsdl">
     <con:settings/>

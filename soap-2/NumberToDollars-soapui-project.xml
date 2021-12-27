@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project xmlns:con="http://eviware.com/soapui/config" id="b8991db2-e727-428f-93d5-73774d46b698" activeEnvironment="Default"
+<con:soapui-project xmlns:con="http://eviware.com/soapui/config" id="b8991db2-e727-428f-93d5-73774d46b698"
+                    activeEnvironment="Default"
                     name="NumberToDollars" resourceRoot="" soapui-version="5.4.0" abortOnError="false"
                     runType="SEQUENTIAL">
   <con:settings/>
-  <con:interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="con:WsdlInterface" id="a81df615-3f89-4ffe-ab75-072e3c2e423d"
+  <con:interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="con:WsdlInterface"
+                 id="a81df615-3f89-4ffe-ab75-072e3c2e423d"
                  wsaVersion="NONE" name="NumberConversionSoapBinding"
                  type="wsdl"
-                 bindingName="{http://www.dataaccess.com/webservicesserver/}NumberConversionSoapBinding" soapVersion="1_1"
+                 bindingName="{http://www.dataaccess.com/webservicesserver/}NumberConversionSoapBinding"
+                 soapVersion="1_1"
                  anonymous="optional"
                  definition="http://www.dataaccess.com/webservicesserver/numberconversion.wso?WSDL">
     <con:settings/>
@@ -63,10 +66,12 @@
       </con:call>
     </con:operation>
   </con:interface>
-  <con:interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="con:WsdlInterface" id="b5de4e76-f0d3-46df-b654-eae86f2799c0"
+  <con:interface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="con:WsdlInterface"
+                 id="b5de4e76-f0d3-46df-b654-eae86f2799c0"
                  wsaVersion="NONE" name="NumberConversionSoapBinding12"
                  type="wsdl"
-                 bindingName="{http://www.dataaccess.com/webservicesserver/}NumberConversionSoapBinding12" soapVersion="1_2"
+                 bindingName="{http://www.dataaccess.com/webservicesserver/}NumberConversionSoapBinding12"
+                 soapVersion="1_2"
                  anonymous="optional"
                  definition="http://www.dataaccess.com/webservicesserver/numberconversion.wso?WSDL">
     <con:settings/>
