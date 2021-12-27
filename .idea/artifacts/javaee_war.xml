@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="${project.artifactId}-${project.version}.war">
+    <root id="archive" name="javaee-7.0.war">
       <element id="artifact" artifact-name="javaee:war exploded" />
     </root>
   </artifact>
