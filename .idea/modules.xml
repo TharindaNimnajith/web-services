@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/create-api/createAPI/bugtracker.iml" filepath="$PROJECT_DIR$/create-api/createAPI/bugtracker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/document-api/bugtracker (1).iml" filepath="$PROJECT_DIR$/document-api/bugtracker (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/soap-1/javaee.iml" filepath="$PROJECT_DIR$/soap-1/javaee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soap-3/project/javaee (1).iml" filepath="$PROJECT_DIR$/soap-3/project/javaee (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/web-services.iml" filepath="$PROJECT_DIR$/.idea/web-services.iml" />
+    </modules>
+  </component>
+</project>
