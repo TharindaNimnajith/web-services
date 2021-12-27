@@ -25,7 +25,7 @@ public class ApplicationCatalogApplicationLoader implements ApplicationListener<
         Application app2 = new Application("Order Management", "Bug tracking app", 1);
         Application app3 = new Application("Expense Reporting", "Bug tracking app", 2);
         Application app4 = new Application("Schedule Manager", "Bug tracking app", 1);
-        Application app5 = new Application("Time Tracker", "Online timesheet",2);
+        Application app5 = new Application("Time Tracker", "Online timesheet", 2);
         applicationRepository.save(app1);
         applicationRepository.save(app2);
         applicationRepository.save(app3);

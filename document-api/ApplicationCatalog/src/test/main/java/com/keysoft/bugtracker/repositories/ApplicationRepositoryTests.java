@@ -18,9 +18,9 @@ import static org.junit.Assert.assertNotNull;
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class ApplicationRepositoryTests {
+    private static final String URL = "http://localhost:8081/applications";
     @Autowired
     private TestRestTemplate restTemplate;
-    private static final String URL = "http://localhost:8081/applications";
 
     @Test
     public void testCreateApplication() throws Exception {
@@ -61,12 +61,12 @@ public class ApplicationRepositoryTests {
     public void testUpdateApplication() throws Exception {
         //prepare
         // create the application object with id equal to the one to update
-        Application application = new Application(1,"New TrackZilla Name", "New app description", 2);
+        Application application = new Application(1, "New TrackZilla Name", "New app description", 2);
 
         HttpEntity<Application> requestEntity = new HttpEntity<>(application);
 
         //execute
-        ResponseEntity<Application> responseEntity = restTemplate.exchange(URL +"/" + application.getId(), HttpMethod.PUT,requestEntity, Application.class);
+        ResponseEntity<Application> responseEntity = restTemplate.exchange(URL + "/" + application.getId(), HttpMethod.PUT, requestEntity, Application.class);
 
         //collect data
         int status = responseEntity.getStatusCodeValue();

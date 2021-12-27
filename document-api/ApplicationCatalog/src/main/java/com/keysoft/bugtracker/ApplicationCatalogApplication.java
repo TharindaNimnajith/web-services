@@ -10,8 +10,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @ComponentScan("main.java.com.keysoft")
 public class ApplicationCatalogApplication {
 
-	public static void main(String... args) {
-		SpringApplication.run(ApplicationCatalogApplication.class, args);
+    public static void main(String... args) {
+        SpringApplication.run(ApplicationCatalogApplication.class, args);
 
-	}
+    }
 }

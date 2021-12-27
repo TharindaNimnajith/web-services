@@ -17,9 +17,9 @@ import static org.junit.Assert.assertNotNull;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class ApplicationCatalogControllerTests {
 
+    private static final String URL = "http://localhost:8081/applications";
     @Autowired
     private TestRestTemplate restTemplate;
-    private static final String URL = "http://localhost:8081/applications";
 
     @Test
     public void testGetApplication() throws Exception {

@@ -6,13 +6,13 @@ import javax.persistence.*;
 public class Ticket {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name="ticket_id")
+    @Column(name = "ticket_id")
     private Integer id;
 
-    @Column(nullable=false)
+    @Column(nullable = false)
     private String title;
 
-    @Column(nullable=false)
+    @Column(nullable = false)
     private String description;
 
     @Column(nullable = false)

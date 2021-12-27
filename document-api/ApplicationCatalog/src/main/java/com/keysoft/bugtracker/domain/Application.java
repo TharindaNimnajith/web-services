@@ -6,13 +6,13 @@ import javax.persistence.*;
 public class Application {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name="aplication_id")
+    @Column(name = "aplication_id")
     private Integer id;
 
-    @Column(nullable=false)
+    @Column(nullable = false)
     private String name;
 
-    @Column(nullable=false)
+    @Column(nullable = false)
     private String description;
 
     @Column(nullable = false)
@@ -25,7 +25,8 @@ public class Application {
     private String ownerRole;
 
 
-    public Application() {}
+    public Application() {
+    }
 
     public Application(String name, String description, Integer ownerId) {
         this.name = name;

@@ -9,7 +9,6 @@ import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
 
 
-
 @Component
 public class TicketManagementApplicationLoader implements ApplicationListener<ContextRefreshedEvent> {
 

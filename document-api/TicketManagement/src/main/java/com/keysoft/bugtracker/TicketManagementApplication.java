@@ -9,8 +9,8 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan("main.java.com.keysoft")
 public class TicketManagementApplication {
 
-	public static void main(String... args) {
-		SpringApplication.run(TicketManagementApplication.class, args);
+    public static void main(String... args) {
+        SpringApplication.run(TicketManagementApplication.class, args);
 
-	}
+    }
 }

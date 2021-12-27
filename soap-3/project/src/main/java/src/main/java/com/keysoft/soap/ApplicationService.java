@@ -1,8 +1,6 @@
 package src.main.java.com.keysoft.soap;
 
-import javax.jws.WebMethod;
 import javax.jws.WebService;
-import javax.ws.rs.core.Response;
 
 @WebService(
         endpointInterface = "src.main.java.com.keysoft.soap.IApplicationService",
@@ -14,6 +12,6 @@ public class ApplicationService implements IApplicationService {
 
     @Override
     public String getAll() {
-            return "Hello World";
+        return "Hello World";
     }
 }

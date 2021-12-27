@@ -8,7 +8,8 @@ public class Application {
     private String name;
     private String description;
 
-    public Application() { }
+    public Application() {
+    }
 
     public Application(Integer id, String name, String description) {
         this.id = id;
