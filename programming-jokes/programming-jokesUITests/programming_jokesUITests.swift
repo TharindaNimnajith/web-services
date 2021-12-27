@@ -2,9 +2,6 @@
 //  programming_jokesUITests.swift
 //  programming-jokesUITests
 //
-//  Created by Kesha Williams on 12/20/18.
-//  Copyright © 2018 Kesha Williams. All rights reserved.
-//
 
 import XCTest
 
